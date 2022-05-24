@@ -3,7 +3,7 @@ import { Image, StyleSheet, View, Text} from 'react-native';
 export default function ImgMenor(){
     return(
         <View style={styles.optionContainer}>
-        <Text style={styles.title}>São Paulo Arlines</Text>
+        <Text style={styles.title}>São Paulo Airlines</Text>
         <Image source={require('../../assets/Escudo-São-Paulo.png')} style={styles.img} />
         </View>
         

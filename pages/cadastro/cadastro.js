@@ -26,7 +26,7 @@ export default function Cadastro({ navigation }){
 const styles = StyleSheet.create({
     btn: {
         width: 150,
-        height: 25,
+        height: 50,
         backgroundColor: "red",
         borderRadius: 5,
     },

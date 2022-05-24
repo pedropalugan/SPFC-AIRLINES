@@ -7,7 +7,7 @@ function Home({ navigation }){
     return(
         <View style={styles.mainContent}>
             <Img />
-            <Text style={styles.desc}>Bem vindo ao São Paulo Arlines</Text>
+            <Text style={styles.desc}>Bem vindo ao São Paulo Airlines</Text>
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Options')}><Text style={styles.btnTxt}>Clique para continuar</Text></TouchableOpacity>
             <StatusBar style="auto" />
         </View>
@@ -19,7 +19,7 @@ export default Home;
 const styles = StyleSheet.create({
 
     desc:{
-        fontSize: 25,
+        fontSize: 22,
         fontWeight: 700,
         marginBottom: 75,
     },
