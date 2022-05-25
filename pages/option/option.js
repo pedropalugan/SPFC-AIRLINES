@@ -13,7 +13,6 @@ export default function Options({ navigation }) {
                 <Text style={styles.des}>Selecionar uma função</Text>
                 <View style={styles.btnContent}>
                     <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Cadastro')}><Text style={styles.btnTxt}>Fazer Cadastro</Text></TouchableOpacity>
-                    <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Passagem')}><Text style={styles.btnTxt}>Comprar passagem</Text></TouchableOpacity>
                     <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Destino')}><Text style={styles.btnTxt}>Destinos Nacionais</Text></TouchableOpacity>
                     <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Home')}><Text style={styles.btnTxt}>Home</Text></TouchableOpacity>
                 </View>
